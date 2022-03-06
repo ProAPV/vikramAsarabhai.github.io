@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(166, 255, 0, 0.801);
+}
+h1{
+    color: rgb(255, 0, 140);
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: dank Courier, monospace;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 50;
+    }
+}
+a:hover{
+    color: aliceblue;
+    background: blue;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
